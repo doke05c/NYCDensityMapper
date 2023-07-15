@@ -124,6 +124,6 @@ The clean data should look like what we saw in Insomnia.
 
 A representation of some of the lot blocks in Manhattan using the neat <a href="https://geojson.io/">GeoJSON</a>!
 
-![GeoJSON](/guides/data_collection/geojson1.png)
+![GeoJSON](https://github.com/doke05c/NYCDensityMapper/blob/main/guides/data_collection/geojson1.PNG)
 
 174 Bleecker has 4 residential units, and a great Georgian restaurant! (That's the 5th unit in the building)
