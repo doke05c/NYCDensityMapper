@@ -9,11 +9,11 @@ Without further ado...
 ## Step 1: ZoLall the Way to the Bank 
 Go to the NYC ZoLa (Zoning and Land Use) Website, upon which you will be greeted with a wonderful hodge podge of bright colors and other doohickeys. Don't worry about that for now. Zoom into any building, and open the F12 menu.
 
-![Landing Inspect Page](zolasc1.png)
+![Landing Inspect Page](/guides/data_collection/zolasc1.png)
 
 Then hit <b>Network</b>. <b>ONLY AFTER THAT</b>, proceed to click on any building. <i>(a random one on Madison Street in Bed-Stuy will do for our example)</i>
 
-![Inspect Network Page](zolasc2.png)
+![Inspect Network Page](/guides/data_collection/zolasc2.png)
 
 The Network tab should be as confusing as it looks. This shows that (if we did Network -> building selection in the right order) the page has responded to our request to get data on a particular tax lot. 
 
@@ -23,7 +23,7 @@ In the <b>Filter</b> section, type in the <b>BBL</b> code as it appears in
 `TAX LOT | BBL 3018260025` on the top of the page just to the left of our F12 menu. 
 
 
-![Network Filter](zolasc3.png)
+![Network Filter](/guides/data_collection/zolasc3.png)
 
 A "BBL" is a shorthand of saying Borough, Block, Lot. This is the way tax lots are divided up and codified in the NYC Planning Department, with a 10 digit code serving as an amalgamation of 3 smaller codes.
 
@@ -37,7 +37,7 @@ The resulting BBL code can be used to identify any tax lot in New York City, and
 
 Click on the first link that appears, whose preview ends in `"address,bbl,..."`
 
-![SQL Sample](zolasc4.png)
+![SQL Sample](/guides/data_collection/zolasc4.png)
 
 What we have selected is important, and will be the basis for our subsequent data collection.
 
@@ -53,11 +53,11 @@ I did this step using <a href="https://insomnia.rest/download">Insomnia</a>, but
 
 Create a new request, head over to <b>Query</b>, and paste the link in the URL tab at the top.
 
-![SQL Sample](insomniasc1.png)
+![SQL Sample](/guides/data_collection/insomniasc1.png)
 
 Next, hit Import from URL and watch the sparks (SQL-URL deconstruction) fly!
 
-![SQL Sample](insomniasc2.png)
+![SQL Sample](/guides/data_collection/insomniasc2.png)
 
 We have a LOT of information that we're pulling from the API (some of it VERY incriminating, like the building owner), so let's not have all of that there!
 
@@ -65,7 +65,7 @@ What we need for now is just `address,bbl,bldgarea,block,borocode,cd,lot,lotarea
 
 Next, change the `WHERE bbl=3018260025` to `WHERE bbl BETWEEN 1000000000 AND 1099999999` to encompass all possible Manhattan BBLs. (we will get to the other boroughs soon)
 
-![SQL Sample](insomniasc3.png)
+![SQL Sample](/guides/data_collection/insomniasc3.png)
 
 These modifications will allow us to only get the data we may need, and only scan for reasonably possible BBLs, because believe it or not, abusing API resources isn't cute or quirky, it's just mean. :(
 
@@ -73,7 +73,7 @@ While we will not primarily get our final data from insomnia, it helps to send a
 
 It should take a few seconds to render the list, and make sure you display it on screen regardless of the warnings to see it in-program. 
 
-![SQL Sample](insomniasc4.png)
+![SQL Sample](/guides/data_collection/insomniasc4.png)
 
 We have a lot of characteristics on this address: <b>2 Wall Street</b>. 
 As a commercial building, it has 0 residential units, but we know it has 21 floors, a gross floor area of 173,159 square feet, and a lot area of 8,614 square feet. 
@@ -124,6 +124,6 @@ The clean data should look like what we saw in Insomnia.
 
 A representation of some of the lot blocks in Manhattan using the neat <a href="https://geojson.io/">GeoJSON</a>!
 
-![GeoJSON](geojson1.png)
+![GeoJSON](/guides/data_collection/geojson1.png)
 
 174 Bleecker has 4 residential units, and a great Georgian restaurant! (That's the 5th unit in the building)
