@@ -27,11 +27,11 @@ In the <b>Filter</b> section, type in the <b>BBL</b> code as it appears in
 
 A "BBL" is a shorthand of saying Borough, Block, Lot. This is the way tax lots are divided up and codified in the NYC Planning Department, with a 10 digit code serving as an amalgamation of 3 smaller codes.
 
-The Borough number can be anywhere between 1-5 inclusive, with 1 being Manhattan, 2 being the Bronx, 3 being Brooklyn, 4 being Queens, and 5 being Staten Island. The BBL code adds a second filler digit after the borough digit.
+The Borough code can be anywhere between 1-5 inclusive, with 1 being Manhattan, 2 being the Bronx, 3 being Brooklyn, 4 being Queens, and 5 being Staten Island. The BBL code adds a second filler digit after the borough digit.
 
-The Block number (to my knowledge) can by any 4 digit number `0000-9999`, and any missing leading zeros in the original block number will be filled in in the BBL code.
+The Block code can by any (to my knowledge) 4 digit number `0000-9999`, and any missing leading zeros in the original block number will be filled in in the BBL code.
 
-The Lot number works the same as the Block number.
+The Lot code works the same as the Block number.
 
 The resulting BBL code can be used to identify any tax lot in New York City, and will be a useful tool for us in the next few steps.
 
