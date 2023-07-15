@@ -2,7 +2,7 @@
 
 In order for this project to work, I had to come up with a way to systematically and quickly import data on <b>all</b> of NYC's numerous tax lots that make up the fabric of its street system.
 
-Thankfully, David Chen (<a href="https://github.com/TheEgghead27">Github</a>, <a href="https://www.linkedin.com/in/david-lin-chen/">LinkedIn</a>) was able to come up with a way to do this in relatively quick time. Without his initial contribution to the journey, the rest of it would not be possible.
+Thankfully, David Chen (<a href="https://github.com/TheEgghead27">Github</a>, <a href="https://www.linkedin.com/in/david-lin-chen/">LinkedIn</a>) was able to come up with a way to do this in relatively quick time. Without this contribution of his to the journey, the rest of it would not be possible.
 
 Without further ado...
 
@@ -82,3 +82,48 @@ As a commercial building, it has 0 residential units, but we know it has 21 floo
 
 This, and all other Manhattan tax lots, should be visible in this preview, but let's now move on to writing a script to help us write the data for all boroughs into files.
 
+## Step 3: Lead the Serpents to the Palace
+
+Using Python, we can make a short script to automate this process for us and procure our citywide data in seconds.
+
+Take the `URL Preview` from Insomnia, and copy it. We'll need it a bit later.
+
+Here's a copy of the code used to import the data (found in `import.py`):
+
+```
+import http.client
+
+conn = http.client.HTTPSConnection("planninglabs.carto.com")
+
+for i in range(5):
+    print(f"Getting file #{i+1}!")
+    payload = ""
+    conn.request("GET", f"/api/v2/sql?q=SELECT%20address,bbl,bldgarea,block,borocode,cd,lot,lotarea,lotdepth,lotfront,numbldgs,numfloors,unitsres,unitstotal,%20%20%20%20%2F*%20id%3A3018260025%20*%2F%20%20%20%20st_x(st_centroid(the_geom))%20as%20lon,%20st_y(st_centroid(the_geom))%20as%20lat,%20%20%20%20the_geom,%20bbl%20AS%20id%20FROM%20dcp_mappluto%20WHERE%20bbl%20BETWEEN%20{i+1}000000000%20AND%20{i+1}099999999&format=geojson", payload)
+    res = conn.getresponse()
+    data = res.read()
+
+    with open(f"{i+1}-data.json", 'w') as f:
+        f.write(data.decode("utf-8"))
+```
+
+We will use http.client to interact with the Web from Python, create a connection to the PlanningLabs site, request 5 payloads, each of which being each of the boroughs in the city. This is where the URL will go. Cut off everything before /api, since that is the domain and we have already specified it in the `HTTPSConnection` variable. Place it in between the `"GET"` and `payload` parameters of the request function. 
+
+We will also use fprint to be able to change out the Borough code at will using the variable we're using to loop through the Boroughs with, and change files accordingly when we write the data to our JSON file output at the end.
+
+Save and run the program, and run it with `python3 [filename].py`
+
+## Step 4: Cleanup on Aisle J(SON)
+
+Our last step is to make our files a little more readable, with this one simple trick! (Doctors hate it...)
+
+`for i in {1..5}; do cat $i-data.json | python3 -m json.tool > $i-data-clean.json; done`
+
+The clean data should look like what we saw in Insomnia. 
+
+## Here's a bonus!
+
+A representation of some of the lot blocks in Manhattan using the neat <a href="https://geojson.io/">GeoJSON</a>!
+
+![GeoJSON](geojson1.png)
+
+174 Bleecker has 4 residential units, and a great Georgian restaurant! (That's the 5th unit in the building)
