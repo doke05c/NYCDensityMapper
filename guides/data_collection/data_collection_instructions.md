@@ -43,6 +43,42 @@ What we have selected is important, and will be the basis for our subsequent dat
 
 The New York City government has graciously provided an API (Application Programming Interface) to their data through their <a href="https://labs.planning.nyc.gov/">Planning Labs</a> website. 
 
-This link represents a web request to the API to retrieve all information about this tax lot using SQL code that has been made compatible with HTML using some syntax edits. 
+This link represents a web request to the API to retrieve all information about this tax lot using SQL code that has been made compatible with URL using some syntax edits. 
 
 In our next step, we will undo these edits to reconstruct the original SQL code, and modify it to retrieve data for <b>all</b> NYC tax lots from the API. (Sincerest of apologies to the servers running this API for the repeated frying I did to them making this map, I promise it was all worth it)
+
+## Step 2: We Aren't Getting Any Sleep
+
+I did this step using <a href="https://insomnia.rest/download">Insomnia</a>, but I'm sure any old API development program will work.
+
+Create a new request, head over to <b>Query</b>, and paste the link in the URL tab at the top.
+
+![SQL Sample](insomniasc1.png)
+
+Next, hit Import from URL and watch the sparks (SQL-URL deconstruction) fly!
+
+![SQL Sample](insomniasc2.png)
+
+We have a LOT of information that we're pulling from the API (some of it VERY incriminating, like the building owner), so let's not have all of that there!
+
+What we need for now is just `address,bbl,bldgarea,block,borocode,cd,lot,lotarea,lotdepth,lotfront,numbldgs,numfloors,unitsres,unitstotal`, and everything after and including the "id" comment.
+
+Next, change the `WHERE bbl=3018260025` to `WHERE bbl BETWEEN 1000000000 AND 1099999999` to encompass all possible Manhattan BBLs. (we will get to the other boroughs soon)
+
+![SQL Sample](insomniasc3.png)
+
+These modifications will allow us to only get the data we may need, and only scan for reasonably possible BBLs, because believe it or not, abusing API resources isn't cute or quirky, it's just mean. :(
+
+While we will not primarily get our final data from insomnia, it helps to send a request anyways to see what the data looks like to make sure it's right.
+
+It should take a few seconds to render the list, and make sure you display it on screen regardless of the warnings to see it in-program. 
+
+![SQL Sample](insomniasc4.png)
+
+We have a lot of characteristics on this address: <b>2 Wall Street</b>. 
+As a commercial building, it has 0 residential units, but we know it has 21 floors, a gross floor area of 173,159 square feet, and a lot area of 8,614 square feet. 
+
+(The floor-to-area ratio, otherwise known as FAR, taken by diving total floor area by lot area, is above 20, making this certainly a dense tower. Fitting for a Financial District building.)
+
+This, and all other Manhattan tax lots, should be visible in this preview, but let's now move on to writing a script to help us write the data for all boroughs into files.
+
