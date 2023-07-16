@@ -27,11 +27,11 @@ In the <b>Filter</b> section, type in the <b>BBL</b> code as it appears in
 
 A "BBL" is a shorthand of saying Borough, Block, Lot. This is the way tax lots are divided up and codified in the NYC Planning Department, with a 10 digit code serving as an amalgamation of 3 smaller codes.
 
-The Borough code can be anywhere between 1-5 inclusive, with 1 being Manhattan, 2 being the Bronx, 3 being Brooklyn, 4 being Queens, and 5 being Staten Island. The BBL code adds a second filler digit after the borough digit.
+The Borough code can be anywhere between 1-5 inclusive, with 1 being Manhattan, 2 being the Bronx, 3 being Brooklyn, 4 being Queens, and 5 being Staten Island.
 
-The Block code can by any (to my knowledge) 4 digit number `0000-9999`, and any missing leading zeros in the original block number will be filled in in the BBL code.
+The Block code can by any (to my knowledge) 5 digit number `00000-99999`, and any missing leading zeros in the original block number will be filled in in the BBL code.
 
-The Lot code works the same as the Block number.
+The Lot code works the same as the Block number, but with a 4 digit number.
 
 The resulting BBL code can be used to identify any tax lot in New York City, and will be a useful tool for us in the next few steps.
 
@@ -63,7 +63,7 @@ We have a LOT of information that we're pulling from the API (some of it VERY in
 
 What we need for now is just `address,bbl,bldgarea,block,borocode,cd,lot,lotarea,lotdepth,lotfront,numbldgs,numfloors,unitsres,unitstotal`, and everything after and including the "id" comment.
 
-Next, change the `WHERE bbl=3018260025` to `WHERE bbl BETWEEN 1000000000 AND 1099999999` to encompass all possible Manhattan BBLs. (we will get to the other boroughs soon)
+Next, change the `WHERE bbl=3018260025` to `WHERE bbl BETWEEN 1000000000 AND 1999999999` to encompass all possible Manhattan BBLs. (we will get to the other boroughs soon)
 
 ![SQL Sample](https://github.com/doke05c/NYCDensityMapper/blob/main/guides/data_collection/insomniasc3.PNG)
 
