@@ -11,10 +11,11 @@ with open('sample_UWS.geojson') as f:
     for i in data['features']:
         area = i['properties']['lotarea']
         units_res = i['properties']['unitsres']
-        coord = i['geometry']['coordinates']
+        coord = i['geometry']['coordinates'][0][0]
         sum_area_sqft += area
         sum_units_res += units_res
         coords_list.append(coord)
+
     print("This block has", sum_area_sqft, "sq. feet of lot area.")
     print("This block has", sum_units_res, "residential units.")
 
@@ -23,12 +24,13 @@ with open('sample_UWS.geojson') as f:
 
     print("This block's residential density is", round(density_acre, 2), "units per acre.")
 
-    pprint(coords_list)
+    print(f"There are {len(coords_list)} buildings.")
+    with open("save_coords_list.json", "w") as save_file:
+        json.dump(coords_list, save_file, indent=2)
 
     plt.figure()
     for i in coords_list:
-        print("I: ", i)
-        xs, ys = zip(*i[0][0])
+        xs, ys = zip(*i)
 
         plt.plot(xs,ys) 
     plt.show()
