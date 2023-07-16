@@ -40,9 +40,7 @@
 				"address": "127 WEST 94 STREET",
 				"bbl": 1012250021,
 				"bldgarea": 3900,
-				"bldgclass": "W8",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 21,
@@ -97,9 +95,7 @@
 				"address": "125 WEST 94 STREET",
 				"bbl": 1012250121,
 				"bldgarea": 4152,
-				"bldgclass": "O8",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 121,
@@ -166,9 +162,7 @@
 				"address": "701 AMSTERDAM AVENUE",
 				"bbl": 1012250001,
 				"bldgarea": 323484,
-				"bldgclass": "D4",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 1,
@@ -223,9 +217,7 @@
 				"address": "147 WEST 94 STREET",
 				"bbl": 1012250014,
 				"bldgarea": 5396,
-				"bldgclass": "C0",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 14,
@@ -280,9 +272,7 @@
 				"address": "143 WEST 94 STREET",
 				"bbl": 1012250015,
 				"bldgarea": 4180,
-				"bldgclass": "A4",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 15,
@@ -337,9 +327,7 @@
 				"address": "141 WEST 94 STREET",
 				"bbl": 1012250016,
 				"bldgarea": 4320,
-				"bldgclass": "C3",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 16,
@@ -363,114 +351,51 @@
 					[
 						[
 							[
-								-73.969722,
-								40.792819
+								-73.969621,
+								40.792459
 							],
 							[
-								-73.969899,
-								40.792576
+								-73.969569,
+								40.792437
 							],
 							[
-								-73.96992,
-								40.792585
+								-73.969753,
+								40.792186
 							],
 							[
-								-73.969977,
-								40.792609
+								-73.969805,
+								40.792208
 							],
 							[
-								-73.970125,
-								40.792672
+								-73.969621,
+								40.792459
 							],
 							[
-								-73.969948,
-								40.792914
-							],
-							[
-								-73.969722,
-								40.792819
+								-73.969621,
+								40.792459
 							]
 						]
 					]
 				]
 			},
 			"properties": {
-				"address": "150 WEST 95 STREET",
-				"bbl": 1012250052,
-				"bldgarea": 55404,
-				"bldgclass": "D4",
+				"address": "137 WEST 94 STREET",
+				"bbl": 1012250017,
+				"bldgarea": 3800,
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
-				"lot": 52,
-				"lotarea": 7250,
+				"lot": 17,
+				"lotarea": 1710,
 				"lotdepth": 100.67,
-				"lotfront": 72,
+				"lotfront": 17,
 				"numbldgs": 1,
-				"numfloors": 9,
-				"unitsres": 40,
-				"unitstotal": 40,
-				"lon": -73.96992363292955,
-				"lat": 40.792745095046435,
-				"id": 1012250052
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.968589,
-								40.791695
-							],
-							[
-								-73.969052,
-								40.79189
-							],
-							[
-								-73.968869,
-								40.792141
-							],
-							[
-								-73.968692,
-								40.792384
-							],
-							[
-								-73.968228,
-								40.792189
-							],
-							[
-								-73.968589,
-								40.791695
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "700 COLUMBUS AVENUE",
-				"bbl": 1012250029,
-				"bldgarea": 515953,
-				"bldgclass": "D4",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 29,
-				"lotarea": 30212,
-				"lotdepth": 150,
-				"lotfront": 201.42,
-				"numbldgs": 1,
-				"numfloors": 20,
-				"unitsres": 190,
-				"unitstotal": 197,
-				"lon": -73.96864017778495,
-				"lat": 40.79203957314647,
-				"id": 1012250029
+				"numfloors": 4,
+				"unitsres": 6,
+				"unitstotal": 6,
+				"lon": -73.9696870479931,
+				"lat": 40.792322523257994,
+				"id": 1012250017
 			}
 		},
 		{
@@ -512,9 +437,7 @@
 				"address": "135 WEST 94 STREET",
 				"bbl": 1012250018,
 				"bldgarea": 3400,
-				"bldgclass": "C3",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 18,
@@ -528,625 +451,6 @@
 				"lon": -73.96963440186065,
 				"lat": 40.79230031679684,
 				"id": 1012250018
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969347,
-								40.792343
-							],
-							[
-								-73.969357,
-								40.792347
-							],
-							[
-								-73.969398,
-								40.792365
-							],
-							[
-								-73.969221,
-								40.792607
-							],
-							[
-								-73.969169,
-								40.792586
-							],
-							[
-								-73.969347,
-								40.792343
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "128 WEST 95 STREET",
-				"bbl": 1012250045,
-				"bldgarea": 5500,
-				"bldgclass": "S1",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 45,
-				"lotarea": 1710,
-				"lotdepth": 100.67,
-				"lotfront": 17,
-				"numbldgs": 1,
-				"numfloors": 4,
-				"unitsres": 1,
-				"unitstotal": 2,
-				"lon": -73.96928385807307,
-				"lat": 40.79247523511359,
-				"id": 1012250045
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969509,
-								40.792412
-							],
-							[
-								-73.969332,
-								40.792654
-							],
-							[
-								-73.969279,
-								40.792632
-							],
-							[
-								-73.969456,
-								40.792389
-							],
-							[
-								-73.969461,
-								40.792391
-							],
-							[
-								-73.969509,
-								40.792412
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "132 WEST 95 STREET",
-				"bbl": 1012250046,
-				"bldgarea": 4721,
-				"bldgclass": "C0",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 46,
-				"lotarea": 1717,
-				"lotdepth": 100.67,
-				"lotfront": 17,
-				"numbldgs": 1,
-				"numfloors": 4,
-				"unitsres": 3,
-				"unitstotal": 3,
-				"lon": -73.9693939913067,
-				"lat": 40.79252168997994,
-				"id": 1012250046
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.970002,
-								40.792937
-							],
-							[
-								-73.970179,
-								40.792694
-							],
-							[
-								-73.970456,
-								40.792811
-							],
-							[
-								-73.970279,
-								40.793053
-							],
-							[
-								-73.970002,
-								40.792937
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "160 WEST 95 STREET",
-				"bbl": 1012250055,
-				"bldgarea": 61800,
-				"bldgclass": "D4",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 55,
-				"lotarea": 8560,
-				"lotdepth": 100.71,
-				"lotfront": 85,
-				"numbldgs": 1,
-				"numfloors": 10,
-				"unitsres": 37,
-				"unitstotal": 37,
-				"lon": -73.97022882380776,
-				"lat": 40.792873824294425,
-				"id": 1012250055
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.970052,
-								40.792312
-							],
-							[
-								-73.969868,
-								40.792563
-							],
-							[
-								-73.969841,
-								40.792552
-							],
-							[
-								-73.969815,
-								40.792541
-							],
-							[
-								-73.969998,
-								40.79229
-							],
-							[
-								-73.970052,
-								40.792312
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "145 WEST 94 STREET",
-				"bbl": 1012250114,
-				"bldgarea": 3400,
-				"bldgclass": "C2",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 114,
-				"lotarea": 1717,
-				"lotdepth": 100.67,
-				"lotfront": 17,
-				"numbldgs": 1,
-				"numfloors": 3,
-				"unitsres": 5,
-				"unitstotal": 5,
-				"lon": -73.96993335136196,
-				"lat": 40.792426413559795,
-				"id": 1012250114
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969805,
-								40.792208
-							],
-							[
-								-73.969869,
-								40.792235
-							],
-							[
-								-73.969685,
-								40.792486
-							],
-							[
-								-73.969676,
-								40.792482
-							],
-							[
-								-73.969621,
-								40.792459
-							],
-							[
-								-73.969805,
-								40.792208
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "139 WEST 94 STREET",
-				"bbl": 1012250116,
-				"bldgarea": 4420,
-				"bldgclass": "C2",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 116,
-				"lotarea": 2012,
-				"lotdepth": 100.67,
-				"lotfront": 20,
-				"numbldgs": 1,
-				"numfloors": 4,
-				"unitsres": 5,
-				"unitstotal": 5,
-				"lon": -73.96974503147203,
-				"lat": 40.79234698110321,
-				"id": 1012250116
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969456,
-								40.792389
-							],
-							[
-								-73.969412,
-								40.792371
-							],
-							[
-								-73.969595,
-								40.79212
-							],
-							[
-								-73.969645,
-								40.79214
-							],
-							[
-								-73.969461,
-								40.792391
-							],
-							[
-								-73.969456,
-								40.792389
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "131 WEST 94 STREET",
-				"bbl": 1012250119,
-				"bldgarea": 4000,
-				"bldgclass": "B1",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 119,
-				"lotarea": 1660,
-				"lotdepth": 100.67,
-				"lotfront": 16.5,
-				"numbldgs": 1,
-				"numfloors": 3,
-				"unitsres": 2,
-				"unitstotal": 2,
-				"lon": -73.96952823698798,
-				"lat": 40.79225553598181,
-				"id": 1012250119
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.968853,
-								40.792452
-							],
-							[
-								-73.968692,
-								40.792384
-							],
-							[
-								-73.968869,
-								40.792141
-							],
-							[
-								-73.96903,
-								40.79221
-							],
-							[
-								-73.968853,
-								40.792452
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "108 WEST 95 STREET",
-				"bbl": 1012250039,
-				"bldgarea": 21108,
-				"bldgclass": "C6",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 39,
-				"lotarea": 4999,
-				"lotdepth": 100.67,
-				"lotfront": 49.67,
-				"numbldgs": 1,
-				"numfloors": 6,
-				"unitsres": 24,
-				"unitstotal": 24,
-				"lon": -73.96886085071236,
-				"lat": 40.79229680550072,
-				"id": 1012250039
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.968853,
-								40.792452
-							],
-							[
-								-73.96903,
-								40.79221
-							],
-							[
-								-73.96919,
-								40.792277
-							],
-							[
-								-73.969013,
-								40.792519
-							],
-							[
-								-73.968853,
-								40.792452
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "118 WEST 95 STREET",
-				"bbl": 1012250041,
-				"bldgarea": 7847,
-				"bldgclass": "M1",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 41,
-				"lotarea": 4999,
-				"lotdepth": 100.67,
-				"lotfront": 49.67,
-				"numbldgs": 1,
-				"numfloors": 2,
-				"unitsres": 0,
-				"unitstotal": 0,
-				"lon": -73.9690213622423,
-				"lat": 40.79236451094326,
-				"id": 1012250041
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969013,
-								40.792519
-							],
-							[
-								-73.96919,
-								40.792277
-							],
-							[
-								-73.969199,
-								40.792281
-							],
-							[
-								-73.969253,
-								40.792304
-							],
-							[
-								-73.969304,
-								40.792325
-							],
-							[
-								-73.969127,
-								40.792567
-							],
-							[
-								-73.969013,
-								40.792519
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "124 WEST 95 STREET",
-				"bbl": 1012250043,
-				"bldgarea": 10550,
-				"bldgclass": "M1",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 43,
-				"lotarea": 3703,
-				"lotdepth": 100.67,
-				"lotfront": 36.67,
-				"numbldgs": 1,
-				"numfloors": 4,
-				"unitsres": 0,
-				"unitstotal": 1,
-				"lon": -73.96915809743103,
-				"lat": 40.7924221881585,
-				"id": 1012250043
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969127,
-								40.792567
-							],
-							[
-								-73.969304,
-								40.792325
-							],
-							[
-								-73.969307,
-								40.792326
-							],
-							[
-								-73.969347,
-								40.792343
-							],
-							[
-								-73.969169,
-								40.792586
-							],
-							[
-								-73.969127,
-								40.792567
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "126 WEST 95 STREET",
-				"bbl": 1012250044,
-				"bldgarea": 3713,
-				"bldgclass": "A4",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 44,
-				"lotarea": 1510,
-				"lotdepth": 100.67,
-				"lotfront": 15,
-				"numbldgs": 1,
-				"numfloors": 3,
-				"unitsres": 1,
-				"unitstotal": 1,
-				"lon": -73.96923655117781,
-				"lat": 40.792455280574785,
-				"id": 1012250044
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969398,
-								40.792365
-							],
-							[
-								-73.969412,
-								40.792371
-							],
-							[
-								-73.969456,
-								40.792389
-							],
-							[
-								-73.969279,
-								40.792632
-							],
-							[
-								-73.969221,
-								40.792607
-							],
-							[
-								-73.969398,
-								40.792365
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "130 WEST 95 STREET",
-				"bbl": 1012250145,
-				"bldgarea": 3979,
-				"bldgclass": "B3",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 145,
-				"lotarea": 1717,
-				"lotdepth": 100.67,
-				"lotfront": 17,
-				"numbldgs": 1,
-				"numfloors": 4,
-				"unitsres": 2,
-				"unitstotal": 2,
-				"lon": -73.96933839034915,
-				"lat": 40.792498237776776,
-				"id": 1012250145
 			}
 		},
 		{
@@ -1188,9 +492,7 @@
 				"address": "133 WEST 94 STREET",
 				"bbl": 1012250019,
 				"bldgarea": 3296,
-				"bldgclass": "B9",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 19,
@@ -1245,9 +547,7 @@
 				"address": "129 WEST 94 STREET",
 				"bbl": 1012250020,
 				"bldgarea": 3392,
-				"bldgclass": "C0",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 20,
@@ -1298,9 +598,7 @@
 				"address": "123 WEST 94 STREET",
 				"bbl": 1012250022,
 				"bldgarea": 3637,
-				"bldgclass": "B1",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 22,
@@ -1359,9 +657,7 @@
 				"address": "109 WEST 94 STREET",
 				"bbl": 1012250023,
 				"bldgarea": 44094,
-				"bldgclass": "D4",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 23,
@@ -1375,6 +671,387 @@
 				"lon": -73.96912558362908,
 				"lat": 40.79208569188565,
 				"id": 1012250023
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.968589,
+								40.791695
+							],
+							[
+								-73.969052,
+								40.79189
+							],
+							[
+								-73.968869,
+								40.792141
+							],
+							[
+								-73.968692,
+								40.792384
+							],
+							[
+								-73.968228,
+								40.792189
+							],
+							[
+								-73.968589,
+								40.791695
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "700 COLUMBUS AVENUE",
+				"bbl": 1012250029,
+				"bldgarea": 515953,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 29,
+				"lotarea": 30212,
+				"lotdepth": 150,
+				"lotfront": 201.42,
+				"numbldgs": 1,
+				"numfloors": 20,
+				"unitsres": 190,
+				"unitstotal": 197,
+				"lon": -73.96864017778495,
+				"lat": 40.79203957314647,
+				"id": 1012250029
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.968853,
+								40.792452
+							],
+							[
+								-73.968692,
+								40.792384
+							],
+							[
+								-73.968869,
+								40.792141
+							],
+							[
+								-73.96903,
+								40.79221
+							],
+							[
+								-73.968853,
+								40.792452
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "108 WEST 95 STREET",
+				"bbl": 1012250039,
+				"bldgarea": 21108,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 39,
+				"lotarea": 4999,
+				"lotdepth": 100.67,
+				"lotfront": 49.67,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 24,
+				"unitstotal": 24,
+				"lon": -73.96886085071236,
+				"lat": 40.79229680550072,
+				"id": 1012250039
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.968853,
+								40.792452
+							],
+							[
+								-73.96903,
+								40.79221
+							],
+							[
+								-73.96919,
+								40.792277
+							],
+							[
+								-73.969013,
+								40.792519
+							],
+							[
+								-73.968853,
+								40.792452
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "118 WEST 95 STREET",
+				"bbl": 1012250041,
+				"bldgarea": 7847,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 41,
+				"lotarea": 4999,
+				"lotdepth": 100.67,
+				"lotfront": 49.67,
+				"numbldgs": 1,
+				"numfloors": 2,
+				"unitsres": 0,
+				"unitstotal": 0,
+				"lon": -73.9690213622423,
+				"lat": 40.79236451094326,
+				"id": 1012250041
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969013,
+								40.792519
+							],
+							[
+								-73.96919,
+								40.792277
+							],
+							[
+								-73.969199,
+								40.792281
+							],
+							[
+								-73.969253,
+								40.792304
+							],
+							[
+								-73.969304,
+								40.792325
+							],
+							[
+								-73.969127,
+								40.792567
+							],
+							[
+								-73.969013,
+								40.792519
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "124 WEST 95 STREET",
+				"bbl": 1012250043,
+				"bldgarea": 10550,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 43,
+				"lotarea": 3703,
+				"lotdepth": 100.67,
+				"lotfront": 36.67,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 0,
+				"unitstotal": 1,
+				"lon": -73.96915809743103,
+				"lat": 40.7924221881585,
+				"id": 1012250043
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969127,
+								40.792567
+							],
+							[
+								-73.969304,
+								40.792325
+							],
+							[
+								-73.969307,
+								40.792326
+							],
+							[
+								-73.969347,
+								40.792343
+							],
+							[
+								-73.969169,
+								40.792586
+							],
+							[
+								-73.969127,
+								40.792567
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "126 WEST 95 STREET",
+				"bbl": 1012250044,
+				"bldgarea": 3713,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 44,
+				"lotarea": 1510,
+				"lotdepth": 100.67,
+				"lotfront": 15,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 1,
+				"unitstotal": 1,
+				"lon": -73.96923655117781,
+				"lat": 40.792455280574785,
+				"id": 1012250044
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969347,
+								40.792343
+							],
+							[
+								-73.969357,
+								40.792347
+							],
+							[
+								-73.969398,
+								40.792365
+							],
+							[
+								-73.969221,
+								40.792607
+							],
+							[
+								-73.969169,
+								40.792586
+							],
+							[
+								-73.969347,
+								40.792343
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "128 WEST 95 STREET",
+				"bbl": 1012250045,
+				"bldgarea": 5500,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 45,
+				"lotarea": 1710,
+				"lotdepth": 100.67,
+				"lotfront": 17,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 1,
+				"unitstotal": 2,
+				"lon": -73.96928385807307,
+				"lat": 40.79247523511359,
+				"id": 1012250045
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969509,
+								40.792412
+							],
+							[
+								-73.969332,
+								40.792654
+							],
+							[
+								-73.969279,
+								40.792632
+							],
+							[
+								-73.969456,
+								40.792389
+							],
+							[
+								-73.969461,
+								40.792391
+							],
+							[
+								-73.969509,
+								40.792412
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "132 WEST 95 STREET",
+				"bbl": 1012250046,
+				"bldgarea": 4721,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 46,
+				"lotarea": 1717,
+				"lotdepth": 100.67,
+				"lotfront": 17,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 3,
+				"unitstotal": 3,
+				"lon": -73.9693939913067,
+				"lat": 40.79252168997994,
+				"id": 1012250046
 			}
 		},
 		{
@@ -1416,9 +1093,7 @@
 				"address": "138 WEST 95 STREET",
 				"bbl": 1012250048,
 				"bldgarea": 4532,
-				"bldgclass": "B9",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 48,
@@ -1473,9 +1148,7 @@
 				"address": "140 WEST 95 STREET",
 				"bbl": 1012250049,
 				"bldgarea": 3600,
-				"bldgclass": "C0",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 49,
@@ -1530,9 +1203,7 @@
 				"address": "142 WEST 95 STREET",
 				"bbl": 1012250050,
 				"bldgarea": 3600,
-				"bldgclass": "C3",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 50,
@@ -1587,9 +1258,7 @@
 				"address": "146 WEST 95 STREET",
 				"bbl": 1012250051,
 				"bldgarea": 5060,
-				"bldgclass": "S5",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 51,
@@ -1603,6 +1272,336 @@
 				"lon": -73.96978165660175,
 				"lat": 40.7926852086193,
 				"id": 1012250051
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969722,
+								40.792819
+							],
+							[
+								-73.969899,
+								40.792576
+							],
+							[
+								-73.96992,
+								40.792585
+							],
+							[
+								-73.969977,
+								40.792609
+							],
+							[
+								-73.970125,
+								40.792672
+							],
+							[
+								-73.969948,
+								40.792914
+							],
+							[
+								-73.969722,
+								40.792819
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "150 WEST 95 STREET",
+				"bbl": 1012250052,
+				"bldgarea": 55404,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 52,
+				"lotarea": 7250,
+				"lotdepth": 100.67,
+				"lotfront": 72,
+				"numbldgs": 1,
+				"numfloors": 9,
+				"unitsres": 40,
+				"unitstotal": 40,
+				"lon": -73.96992363292955,
+				"lat": 40.792745095046435,
+				"id": 1012250052
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.970002,
+								40.792937
+							],
+							[
+								-73.970179,
+								40.792694
+							],
+							[
+								-73.970456,
+								40.792811
+							],
+							[
+								-73.970279,
+								40.793053
+							],
+							[
+								-73.970002,
+								40.792937
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "160 WEST 95 STREET",
+				"bbl": 1012250055,
+				"bldgarea": 61800,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 55,
+				"lotarea": 8560,
+				"lotdepth": 100.71,
+				"lotfront": 85,
+				"numbldgs": 1,
+				"numfloors": 10,
+				"unitsres": 37,
+				"unitstotal": 37,
+				"lon": -73.97022882380776,
+				"lat": 40.792873824294425,
+				"id": 1012250055
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.970052,
+								40.792312
+							],
+							[
+								-73.969868,
+								40.792563
+							],
+							[
+								-73.969841,
+								40.792552
+							],
+							[
+								-73.969815,
+								40.792541
+							],
+							[
+								-73.969998,
+								40.79229
+							],
+							[
+								-73.970052,
+								40.792312
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "145 WEST 94 STREET",
+				"bbl": 1012250114,
+				"bldgarea": 3400,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 114,
+				"lotarea": 1717,
+				"lotdepth": 100.67,
+				"lotfront": 17,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 5,
+				"unitstotal": 5,
+				"lon": -73.96993335136196,
+				"lat": 40.792426413559795,
+				"id": 1012250114
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969805,
+								40.792208
+							],
+							[
+								-73.969869,
+								40.792235
+							],
+							[
+								-73.969685,
+								40.792486
+							],
+							[
+								-73.969676,
+								40.792482
+							],
+							[
+								-73.969621,
+								40.792459
+							],
+							[
+								-73.969805,
+								40.792208
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "139 WEST 94 STREET",
+				"bbl": 1012250116,
+				"bldgarea": 4420,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 116,
+				"lotarea": 2012,
+				"lotdepth": 100.67,
+				"lotfront": 20,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 5,
+				"unitstotal": 5,
+				"lon": -73.96974503147203,
+				"lat": 40.79234698110321,
+				"id": 1012250116
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969456,
+								40.792389
+							],
+							[
+								-73.969412,
+								40.792371
+							],
+							[
+								-73.969595,
+								40.79212
+							],
+							[
+								-73.969645,
+								40.79214
+							],
+							[
+								-73.969461,
+								40.792391
+							],
+							[
+								-73.969456,
+								40.792389
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "131 WEST 94 STREET",
+				"bbl": 1012250119,
+				"bldgarea": 4000,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 119,
+				"lotarea": 1660,
+				"lotdepth": 100.67,
+				"lotfront": 16.5,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 2,
+				"unitstotal": 2,
+				"lon": -73.96952823698798,
+				"lat": 40.79225553598181,
+				"id": 1012250119
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.969398,
+								40.792365
+							],
+							[
+								-73.969412,
+								40.792371
+							],
+							[
+								-73.969456,
+								40.792389
+							],
+							[
+								-73.969279,
+								40.792632
+							],
+							[
+								-73.969221,
+								40.792607
+							],
+							[
+								-73.969398,
+								40.792365
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "130 WEST 95 STREET",
+				"bbl": 1012250145,
+				"bldgarea": 3979,
+				"block": 1225,
+				"borocode": 1,
+				"cd": 107,
+				"lot": 145,
+				"lotarea": 1717,
+				"lotdepth": 100.67,
+				"lotfront": 17,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 2,
+				"unitstotal": 2,
+				"lon": -73.96933839034915,
+				"lat": 40.792498237776776,
+				"id": 1012250145
 			}
 		},
 		{
@@ -1644,9 +1643,7 @@
 				"address": "136 WEST 95 STREET",
 				"bbl": 1012250147,
 				"bldgarea": 3400,
-				"bldgclass": "C0",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 147,
@@ -1701,9 +1698,7 @@
 				"address": "144 WEST 95 STREET",
 				"bbl": 1012250150,
 				"bldgarea": 3600,
-				"bldgclass": "B9",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 150,
@@ -1754,9 +1749,7 @@
 				"address": "149 WEST 94 STREET",
 				"bbl": 1012257501,
 				"bldgarea": 3600,
-				"bldgclass": "R1",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 7501,
@@ -1811,9 +1804,7 @@
 				"address": "134 WEST 95 STREET",
 				"bbl": 1012257502,
 				"bldgarea": 3142,
-				"bldgclass": "R1",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 7502,
@@ -1827,63 +1818,6 @@
 				"lon": -73.96944954125703,
 				"lat": 40.79254512167281,
 				"id": 1012257502
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": [
-					[
-						[
-							[
-								-73.969621,
-								40.792459
-							],
-							[
-								-73.969569,
-								40.792437
-							],
-							[
-								-73.969753,
-								40.792186
-							],
-							[
-								-73.969805,
-								40.792208
-							],
-							[
-								-73.969621,
-								40.792459
-							],
-							[
-								-73.969621,
-								40.792459
-							]
-						]
-					]
-				]
-			},
-			"properties": {
-				"address": "137 WEST 94 STREET",
-				"bbl": 1012250017,
-				"bldgarea": 3800,
-				"bldgclass": "C2",
-				"block": 1225,
-				"borough": "MN",
-				"borocode": 1,
-				"cd": 107,
-				"lot": 17,
-				"lotarea": 1710,
-				"lotdepth": 100.67,
-				"lotfront": 17,
-				"numbldgs": 1,
-				"numfloors": 4,
-				"unitsres": 6,
-				"unitstotal": 6,
-				"lon": -73.9696870479931,
-				"lat": 40.792322523257994,
-				"id": 1012250017
 			}
 		},
 		{
@@ -1921,9 +1855,7 @@
 				"address": "156 WEST 95 STREET",
 				"bbl": 1012257503,
 				"bldgarea": 2491,
-				"bldgclass": "R1",
 				"block": 1225,
-				"borough": "MN",
 				"borocode": 1,
 				"cd": 107,
 				"lot": 7503,
