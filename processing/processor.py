@@ -1,5 +1,6 @@
 import json
 from pprint import pprint
+from matplotlib import pyplot as plt
 
 with open('sample_UWS.geojson') as f:
     data = json.load(f)
@@ -22,4 +23,10 @@ with open('sample_UWS.geojson') as f:
 
     print("This block's residential density is", round(density_acre, 2), "units per acre.")
 
-    print(coords_list)
+    pprint(coords_list)
+
+    xs, ys = zip(*coords_list)
+
+    plt.figure()
+    plt.plot(xs,ys) 
+    plt.show()
