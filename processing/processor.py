@@ -25,8 +25,10 @@ with open('sample_UWS.geojson') as f:
 
     pprint(coords_list)
 
-    xs, ys = zip(*coords_list)
-
     plt.figure()
-    plt.plot(xs,ys) 
+    for i in coords_list:
+        print("I: ", i)
+        xs, ys = zip(*i[0][0])
+
+        plt.plot(xs,ys) 
     plt.show()
