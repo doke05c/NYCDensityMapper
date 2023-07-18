@@ -32,5 +32,5 @@ with open('sample_UES.geojson') as f:
     for i in coords_list:
         xs, ys = zip(*i)
 
-        plt.plot(xs,ys) 
+        plt.plot(xs,ys, color=(1-(density_acre/1000), density_acre/1000, 0)) 
     plt.show()
