@@ -1,0 +1,1585 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001733,
+								40.730168
+							],
+							[
+								-74.001747,
+								40.730164
+							],
+							[
+								-74.001739,
+								40.730177
+							],
+							[
+								-74.001733,
+								40.730168
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "6 AVENUE",
+				"bbl": 1005420006,
+				"bldgarea": 0,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 6,
+				"lotarea": 11,
+				"lotdepth": 3.92,
+				"lotfront": 5.67,
+				"numbldgs": 0,
+				"numfloors": 0,
+				"unitsres": 0,
+				"unitstotal": 0,
+				"lon": -74.00173963831445,
+				"lat": 40.73016945518181,
+				"id": 1005420006
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001493,
+								40.730436
+							],
+							[
+								-74.001592,
+								40.730313
+							],
+							[
+								-74.001547,
+								40.73024
+							],
+							[
+								-74.001737,
+								40.730181
+							],
+							[
+								-74.00157,
+								40.730473
+							],
+							[
+								-74.001493,
+								40.730436
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "294 AVENUE OF THE AMER",
+				"bbl": 1005420010,
+				"bldgarea": 0,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 10,
+				"lotarea": 2329,
+				"lotdepth": 25.75,
+				"lotfront": 113.5,
+				"numbldgs": 0,
+				"numfloors": 0,
+				"unitsres": 0,
+				"unitstotal": 0,
+				"lon": -74.00160890647885,
+				"lat": 40.730318849836046,
+				"id": 1005420010
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001498,
+								40.73016
+							],
+							[
+								-74.001475,
+								40.730123
+							],
+							[
+								-74.001485,
+								40.73012
+							],
+							[
+								-74.001479,
+								40.730108
+							],
+							[
+								-74.001436,
+								40.730032
+							],
+							[
+								-74.001326,
+								40.729978
+							],
+							[
+								-74.001373,
+								40.729926
+							],
+							[
+								-74.001701,
+								40.729826
+							],
+							[
+								-74.001823,
+								40.730031
+							],
+							[
+								-74.001747,
+								40.730164
+							],
+							[
+								-74.001733,
+								40.730168
+							],
+							[
+								-74.001739,
+								40.730177
+							],
+							[
+								-74.001737,
+								40.730181
+							],
+							[
+								-74.001547,
+								40.73024
+							],
+							[
+								-74.001498,
+								40.73016
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "290 AVENUE OF THE AMER",
+				"bbl": 1005420025,
+				"bldgarea": 54924,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 25,
+				"lotarea": 11249,
+				"lotdepth": 78.25,
+				"lotfront": 53.92,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 65,
+				"unitstotal": 65,
+				"lon": -74.0016035746943,
+				"lat": 40.73002451693335,
+				"id": 1005420025
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001823,
+								40.730031
+							],
+							[
+								-74.001701,
+								40.729826
+							],
+							[
+								-74.001986,
+								40.729746
+							],
+							[
+								-74.001823,
+								40.730031
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "6 AVENUE",
+				"bbl": 1005420026,
+				"bldgarea": 0,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 26,
+				"lotarea": 3277,
+				"lotdepth": 83.25,
+				"lotfront": 112.83,
+				"numbldgs": 0,
+				"numfloors": 0,
+				"unitsres": 0,
+				"unitstotal": 0,
+				"lon": -74.00183630305992,
+				"lat": 40.72986757944268,
+				"id": 1005420026
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000959,
+								40.729959
+							],
+							[
+								-74.000921,
+								40.730002
+							],
+							[
+								-74.000915,
+								40.730009
+							],
+							[
+								-74.000676,
+								40.729892
+							],
+							[
+								-74.000718,
+								40.729843
+							],
+							[
+								-74.000959,
+								40.729959
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "109 MAC DOUGAL STREET",
+				"bbl": 1005420046,
+				"bldgarea": 3902,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 46,
+				"lotarea": 1580,
+				"lotdepth": 74.5,
+				"lotfront": 21.5,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 2,
+				"unitstotal": 3,
+				"lon": -74.00081711736578,
+				"lat": 40.729925774926606,
+				"id": 1005420046
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000959,
+								40.729959
+							],
+							[
+								-74.000718,
+								40.729843
+							],
+							[
+								-74.000768,
+								40.729784
+							],
+							[
+								-74.001189,
+								40.729989
+							],
+							[
+								-74.001137,
+								40.730046
+							],
+							[
+								-74.000959,
+								40.729959
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "107 MAC DOUGAL STREET",
+				"bbl": 1005420047,
+				"bldgarea": 9898,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 47,
+				"lotarea": 3349,
+				"lotdepth": 134.5,
+				"lotfront": 25,
+				"numbldgs": 3,
+				"numfloors": 4,
+				"unitsres": 9,
+				"unitstotal": 10,
+				"lon": -74.00095307162917,
+				"lat": 40.72991560402194,
+				"id": 1005420047
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.00148,
+								40.729719
+							],
+							[
+								-74.001402,
+								40.729681
+							],
+							[
+								-74.001594,
+								40.729453
+							],
+							[
+								-74.001672,
+								40.729491
+							],
+							[
+								-74.00148,
+								40.729719
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "201 BLEECKER STREET",
+				"bbl": 1005420060,
+				"bldgarea": 6645,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 60,
+				"lotarea": 2399,
+				"lotdepth": 96,
+				"lotfront": 25,
+				"numbldgs": 2,
+				"numfloors": 4,
+				"unitsres": 4,
+				"unitstotal": 5,
+				"lon": -74.0015372537807,
+				"lat": 40.729585909516096,
+				"id": 1005420060
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001479,
+								40.730108
+							],
+							[
+								-74.001291,
+								40.730017
+							],
+							[
+								-74.001326,
+								40.729978
+							],
+							[
+								-74.001436,
+								40.730032
+							],
+							[
+								-74.001479,
+								40.730108
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "12 MINETTA STREET",
+				"bbl": 1005420019,
+				"bldgarea": 1824,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 19,
+				"lotarea": 987,
+				"lotdepth": 60.17,
+				"lotfront": 16.42,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 2,
+				"unitstotal": 2,
+				"lon": -74.00138285292711,
+				"lat": 40.73003620940995,
+				"id": 1005420019
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001113,
+								40.729788
+							],
+							[
+								-74.00116,
+								40.729731
+							],
+							[
+								-74.001226,
+								40.729763
+							],
+							[
+								-74.001384,
+								40.72984
+							],
+							[
+								-74.0013,
+								40.729866
+							],
+							[
+								-74.001292,
+								40.729875
+							],
+							[
+								-74.001113,
+								40.729788
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "9 MINETTA STREET",
+				"bbl": 1005420036,
+				"bldgarea": 7128,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 36,
+				"lotarea": 1650,
+				"lotdepth": 73.17,
+				"lotfront": 29.58,
+				"numbldgs": 1,
+				"numfloors": 5,
+				"unitsres": 20,
+				"unitstotal": 20,
+				"lon": -74.00123737250215,
+				"lat": 40.729806854579465,
+				"id": 1005420036
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001039,
+								40.730059
+							],
+							[
+								-74.000979,
+								40.73003
+							],
+							[
+								-74.000921,
+								40.730002
+							],
+							[
+								-74.000959,
+								40.729959
+							],
+							[
+								-74.001137,
+								40.730046
+							],
+							[
+								-74.001099,
+								40.730089
+							],
+							[
+								-74.001039,
+								40.730059
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "17 MINETTA STREET",
+				"bbl": 1005420040,
+				"bldgarea": 1785,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 40,
+				"lotarea": 1000,
+				"lotdepth": 58.83,
+				"lotfront": 17,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 1,
+				"unitstotal": 1,
+				"lon": -74.00102899285079,
+				"lat": 40.730024142721504,
+				"id": 1005420040
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000949,
+								40.730166
+							],
+							[
+								-74.001039,
+								40.730059
+							],
+							[
+								-74.001099,
+								40.730089
+							],
+							[
+								-74.001005,
+								40.730193
+							],
+							[
+								-74.000949,
+								40.730166
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "5 MINETTA LANE",
+				"bbl": 1005420041,
+				"bldgarea": 3135,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 41,
+				"lotarea": 1911,
+				"lotdepth": 47.33,
+				"lotfront": 19.08,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 1,
+				"unitstotal": 1,
+				"lon": -74.00102340261994,
+				"lat": 40.73012607903275,
+				"id": 1005420041
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000979,
+								40.73003
+							],
+							[
+								-74.001039,
+								40.730059
+							],
+							[
+								-74.000949,
+								40.730166
+							],
+							[
+								-74.000889,
+								40.730137
+							],
+							[
+								-74.000979,
+								40.73003
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "3 MINETTA LANE",
+				"bbl": 1005420042,
+				"bldgarea": 2736,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 42,
+				"lotarea": 912,
+				"lotdepth": 47.35,
+				"lotfront": 19.28,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 2,
+				"unitstotal": 2,
+				"lon": -74.00096376328598,
+				"lat": 40.730098076541374,
+				"id": 1005420042
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000921,
+								40.730002
+							],
+							[
+								-74.000979,
+								40.73003
+							],
+							[
+								-74.000889,
+								40.730137
+							],
+							[
+								-74.00083,
+								40.730108
+							],
+							[
+								-74.000873,
+								40.730058
+							],
+							[
+								-74.000874,
+								40.730058
+							],
+							[
+								-74.000915,
+								40.730009
+							],
+							[
+								-74.000921,
+								40.730002
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "1 MINETTA LANE",
+				"bbl": 1005420043,
+				"bldgarea": 1938,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 43,
+				"lotarea": 939,
+				"lotdepth": 43.17,
+				"lotfront": 19.58,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 2,
+				"unitstotal": 2,
+				"lon": -74.00090447997019,
+				"lat": 40.730069553849894,
+				"id": 1005420043
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000768,
+								40.729784
+							],
+							[
+								-74.000817,
+								40.729726
+							],
+							[
+								-74.001241,
+								40.729932
+							],
+							[
+								-74.001189,
+								40.729989
+							],
+							[
+								-74.000768,
+								40.729784
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "105 MAC DOUGAL STREET",
+				"bbl": 1005420048,
+				"bldgarea": 19824,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 48,
+				"lotarea": 3373,
+				"lotdepth": 134.5,
+				"lotfront": 25,
+				"numbldgs": 1,
+				"numfloors": 7,
+				"unitsres": 36,
+				"unitstotal": 37,
+				"lon": -74.00100352854051,
+				"lat": 40.72985794895842,
+				"id": 1005420048
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001087,
+								40.73024
+							],
+							[
+								-74.001255,
+								40.730056
+							],
+							[
+								-74.001492,
+								40.730167
+							],
+							[
+								-74.001498,
+								40.73016
+							],
+							[
+								-74.001547,
+								40.73024
+							],
+							[
+								-74.001592,
+								40.730313
+							],
+							[
+								-74.001493,
+								40.730436
+							],
+							[
+								-74.001087,
+								40.73024
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "25 MINETTA LANE",
+				"bbl": 1005420011,
+				"bldgarea": 45720,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 11,
+				"lotarea": 9374,
+				"lotdepth": 80.25,
+				"lotfront": 125,
+				"numbldgs": 1,
+				"numfloors": 5,
+				"unitsres": 65,
+				"unitstotal": 65,
+				"lon": -74.00135631946293,
+				"lat": 40.73024402234574,
+				"id": 1005420011
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001255,
+								40.730056
+							],
+							[
+								-74.001291,
+								40.730017
+							],
+							[
+								-74.001479,
+								40.730108
+							],
+							[
+								-74.001485,
+								40.73012
+							],
+							[
+								-74.001475,
+								40.730123
+							],
+							[
+								-74.001498,
+								40.73016
+							],
+							[
+								-74.001492,
+								40.730167
+							],
+							[
+								-74.001255,
+								40.730056
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "14 MINETTA STREET",
+				"bbl": 1005420018,
+				"bldgarea": 2100,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 18,
+				"lotarea": 1222,
+				"lotdepth": 75.67,
+				"lotfront": 16.17,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 2,
+				"unitstotal": 2,
+				"lon": -74.00137850772684,
+				"lat": 40.73008768051709,
+				"id": 1005420018
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001595,
+								40.729775
+							],
+							[
+								-74.001384,
+								40.72984
+							],
+							[
+								-74.001226,
+								40.729763
+							],
+							[
+								-74.001273,
+								40.729707
+							],
+							[
+								-74.001197,
+								40.72967
+							],
+							[
+								-74.001243,
+								40.729615
+							],
+							[
+								-74.00125,
+								40.729607
+							],
+							[
+								-74.001314,
+								40.729638
+							],
+							[
+								-74.001402,
+								40.729681
+							],
+							[
+								-74.00148,
+								40.729719
+							],
+							[
+								-74.001563,
+								40.72976
+							],
+							[
+								-74.001595,
+								40.729775
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "5 MINETTA STREET",
+				"bbl": 1005420034,
+				"bldgarea": 8042,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 34,
+				"lotarea": 3999,
+				"lotdepth": 109.42,
+				"lotfront": 60.92,
+				"numbldgs": 3,
+				"numfloors": 4,
+				"unitsres": 24,
+				"unitstotal": 24,
+				"lon": -74.00136920968251,
+				"lat": 40.729736587691725,
+				"id": 1005420034
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.00083,
+								40.730108
+							],
+							[
+								-74.000592,
+								40.729992
+							],
+							[
+								-74.000676,
+								40.729892
+							],
+							[
+								-74.000915,
+								40.730009
+							],
+							[
+								-74.000874,
+								40.730058
+							],
+							[
+								-74.000873,
+								40.730058
+							],
+							[
+								-74.00083,
+								40.730108
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "111 MAC DOUGAL STREET",
+				"bbl": 1005420044,
+				"bldgarea": 12366,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 44,
+				"lotarea": 3209,
+				"lotdepth": 74.75,
+				"lotfront": 43,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 25,
+				"unitstotal": 27,
+				"lon": -74.000753410305,
+				"lat": 40.730000406692874,
+				"id": 1005420044
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000817,
+								40.729726
+							],
+							[
+								-74.000866,
+								40.729668
+							],
+							[
+								-74.001113,
+								40.729788
+							],
+							[
+								-74.001292,
+								40.729875
+							],
+							[
+								-74.001241,
+								40.729932
+							],
+							[
+								-74.000817,
+								40.729726
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "103 MAC DOUGAL STREET",
+				"bbl": 1005420049,
+				"bldgarea": 19824,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 49,
+				"lotarea": 3379,
+				"lotdepth": 135.5,
+				"lotfront": 25,
+				"numbldgs": 1,
+				"numfloors": 7,
+				"unitsres": 36,
+				"unitstotal": 37,
+				"lon": -74.00105396855558,
+				"lat": 40.729800247582816,
+				"id": 1005420049
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000866,
+								40.729668
+							],
+							[
+								-74.000914,
+								40.729612
+							],
+							[
+								-74.00116,
+								40.729731
+							],
+							[
+								-74.001113,
+								40.729788
+							],
+							[
+								-74.000866,
+								40.729668
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "101 MAC DOUGAL STREET",
+				"bbl": 1005420050,
+				"bldgarea": 7310,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 50,
+				"lotarea": 1939,
+				"lotdepth": 77.17,
+				"lotfront": 25.17,
+				"numbldgs": 1,
+				"numfloors": 5,
+				"unitsres": 12,
+				"unitstotal": 14,
+				"lon": -74.00101327474748,
+				"lat": 40.72969968089218,
+				"id": 1005420050
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.000961,
+								40.729556
+							],
+							[
+								-74.001197,
+								40.72967
+							],
+							[
+								-74.001273,
+								40.729707
+							],
+							[
+								-74.001226,
+								40.729763
+							],
+							[
+								-74.00116,
+								40.729731
+							],
+							[
+								-74.000914,
+								40.729612
+							],
+							[
+								-74.000961,
+								40.729556
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "99 MAC DOUGAL STREET",
+				"bbl": 1005420051,
+				"bldgarea": 9155,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 51,
+				"lotarea": 2499,
+				"lotdepth": 100,
+				"lotfront": 25,
+				"numbldgs": 1,
+				"numfloors": 5,
+				"unitsres": 16,
+				"unitstotal": 19,
+				"lon": -74.00109345665746,
+				"lat": 40.72965949414876,
+				"id": 1005420051
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001243,
+								40.729615
+							],
+							[
+								-74.001197,
+								40.72967
+							],
+							[
+								-74.000961,
+								40.729556
+							],
+							[
+								-74.001007,
+								40.729501
+							],
+							[
+								-74.001243,
+								40.729615
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "97 MAC DOUGAL STREET",
+				"bbl": 1005420052,
+				"bldgarea": 5750,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 52,
+				"lotarea": 1620,
+				"lotdepth": 75,
+				"lotfront": 21.58,
+				"numbldgs": 1,
+				"numfloors": 4,
+				"unitsres": 7,
+				"unitstotal": 8,
+				"lon": -74.00110212431495,
+				"lat": 40.72958555364919,
+				"id": 1005420052
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001243,
+								40.729615
+							],
+							[
+								-74.001007,
+								40.729501
+							],
+							[
+								-74.001061,
+								40.729437
+							],
+							[
+								-74.001297,
+								40.729552
+							],
+							[
+								-74.00125,
+								40.729607
+							],
+							[
+								-74.001243,
+								40.729615
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "95 MAC DOUGAL STREET",
+				"bbl": 1005420053,
+				"bldgarea": 7815,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 53,
+				"lotarea": 1918,
+				"lotdepth": 75,
+				"lotfront": 25.58,
+				"numbldgs": 1,
+				"numfloors": 5,
+				"unitsres": 8,
+				"unitstotal": 10,
+				"lon": -74.00115213283438,
+				"lat": 40.72952633169092,
+				"id": 1005420053
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.00125,
+								40.729607
+							],
+							[
+								-74.001297,
+								40.729552
+							],
+							[
+								-74.001442,
+								40.72938
+							],
+							[
+								-74.001506,
+								40.729411
+							],
+							[
+								-74.001314,
+								40.729638
+							],
+							[
+								-74.00125,
+								40.729607
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "197 BLEECKER STREET",
+				"bbl": 1005420058,
+				"bldgarea": 4038,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 58,
+				"lotarea": 2016,
+				"lotdepth": 96,
+				"lotfront": 21,
+				"numbldgs": 1,
+				"numfloors": 3,
+				"unitsres": 3,
+				"unitstotal": 5,
+				"lon": -74.0013780615999,
+				"lat": 40.72950881682151,
+				"id": 1005420058
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001506,
+								40.729411
+							],
+							[
+								-74.001594,
+								40.729453
+							],
+							[
+								-74.001402,
+								40.729681
+							],
+							[
+								-74.001314,
+								40.729638
+							],
+							[
+								-74.001506,
+								40.729411
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "199 BLEECKER STREET",
+				"bbl": 1005420059,
+				"bldgarea": 13624,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 59,
+				"lotarea": 1919,
+				"lotdepth": 96,
+				"lotfront": 29,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 15,
+				"unitstotal": 16,
+				"lon": -74.00145416165671,
+				"lat": 40.72954566954942,
+				"id": 1005420059
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001672,
+								40.729491
+							],
+							[
+								-74.001756,
+								40.729531
+							],
+							[
+								-74.001563,
+								40.72976
+							],
+							[
+								-74.00148,
+								40.729719
+							],
+							[
+								-74.001672,
+								40.729491
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "203 BLEECKER STREET",
+				"bbl": 1005420061,
+				"bldgarea": 9190,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 61,
+				"lotarea": 2399,
+				"lotdepth": 96,
+				"lotfront": 25,
+				"numbldgs": 1,
+				"numfloors": 5,
+				"unitsres": 18,
+				"unitstotal": 19,
+				"lon": -74.00161805661055,
+				"lat": 40.729625040645786,
+				"id": 1005420061
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001563,
+								40.72976
+							],
+							[
+								-74.001756,
+								40.729531
+							],
+							[
+								-74.002002,
+								40.729649
+							],
+							[
+								-74.001595,
+								40.729775
+							],
+							[
+								-74.001563,
+								40.72976
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "1 MINETTA STREET",
+				"bbl": 1005427501,
+				"bldgarea": 21842,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 7501,
+				"lotarea": 4150,
+				"lotdepth": 96,
+				"lotfront": 76.5,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 24,
+				"unitstotal": 25,
+				"lon": -74.00176777997262,
+				"lat": 40.72965584229362,
+				"id": 1005427501
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-74.001061,
+								40.729437
+							],
+							[
+								-74.001206,
+								40.729266
+							],
+							[
+								-74.001442,
+								40.72938
+							],
+							[
+								-74.001297,
+								40.729552
+							],
+							[
+								-74.001061,
+								40.729437
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "189 BLEECKER STREET",
+				"bbl": 1005427502,
+				"bldgarea": 27227,
+				"block": 542,
+				"borocode": 1,
+				"cd": 102,
+				"lot": 7502,
+				"lotarea": 5549,
+				"lotdepth": 0,
+				"lotfront": 0,
+				"numbldgs": 2,
+				"numfloors": 6,
+				"unitsres": 40,
+				"unitstotal": 41,
+				"lon": -74.00125148407355,
+				"lat": 40.729408830811074,
+				"id": 1005427502
+			}
+		}
+	]
+}

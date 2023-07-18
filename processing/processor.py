@@ -8,7 +8,7 @@ import math
 def density_to_color(density):
     return math.log(density,10)/3
 
-with open('sample_UES.geojson') as f:
+with open('sample_village.geojson') as f:
     data = json.load(f)
 
     sum_area_sqft = 0
@@ -39,4 +39,5 @@ with open('sample_UES.geojson') as f:
         xs, ys = zip(*i)
 
         plt.plot(xs,ys, color=(1-(density_to_color(density_acre)), density_to_color(density_acre), 0)) 
+        plt.fill(xs,ys, color=(1-(density_to_color(density_acre)), density_to_color(density_acre), 0))
     plt.show()
