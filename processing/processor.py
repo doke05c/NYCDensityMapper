@@ -1,6 +1,12 @@
 import json
 from pprint import pprint
 from matplotlib import pyplot as plt
+import math
+
+#the more dense the housing, the greener the block is. 
+#this scales logarithmically up to 1000 units/acre
+def density_to_color(density):
+    return math.log(density,10)/3
 
 with open('sample_UES.geojson') as f:
     data = json.load(f)
@@ -32,5 +38,5 @@ with open('sample_UES.geojson') as f:
     for i in coords_list:
         xs, ys = zip(*i)
 
-        plt.plot(xs,ys, color=(1-(density_acre/1000), density_acre/1000, 0)) 
+        plt.plot(xs,ys, color=(1-(density_to_color(density_acre)), density_to_color(density_acre), 0)) 
     plt.show()
