@@ -38,6 +38,6 @@ with open('sample_village.geojson') as f:
     for i in coords_list:
         xs, ys = zip(*i)
 
-        plt.plot(xs,ys, color=(1-(density_to_color(density_acre)), density_to_color(density_acre), 0)) 
+        # plt.plot(xs,ys, color=(1-(density_to_color(density_acre)), density_to_color(density_acre), 0)) 
         plt.fill(xs,ys, color=(1-(density_to_color(density_acre)), density_to_color(density_acre), 0))
     plt.show()
