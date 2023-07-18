@@ -2,7 +2,7 @@ import json
 from pprint import pprint
 from matplotlib import pyplot as plt
 
-with open('sample_UWS.geojson') as f:
+with open('sample_UES.geojson') as f:
     data = json.load(f)
 
     sum_area_sqft = 0

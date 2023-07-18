@@ -1,0 +1,747 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.950001,
+								40.771078
+							],
+							[
+								-73.950195,
+								40.770813
+							],
+							[
+								-73.950378,
+								40.770563
+							],
+							[
+								-73.950763,
+								40.770725
+							],
+							[
+								-73.950386,
+								40.771241
+							],
+							[
+								-73.950001,
+								40.771078
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "1472 YORK AVENUE",
+				"bbl": 1014900001,
+				"bldgarea": 98622,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 1,
+				"lotarea": 22680,
+				"lotdepth": 111,
+				"lotfront": 204.33,
+				"numbldgs": 4,
+				"numfloors": 6,
+				"unitsres": 184,
+				"unitstotal": 192,
+				"lon": -73.95038219094081,
+				"lat": 40.77090197507962,
+				"id": 1014900001
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.950378,
+								40.770563
+							],
+							[
+								-73.950195,
+								40.770813
+							],
+							[
+								-73.949839,
+								40.770662
+							],
+							[
+								-73.950021,
+								40.770412
+							],
+							[
+								-73.950378,
+								40.770563
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "503 EAST 78 STREET",
+				"bbl": 1014900009,
+				"bldgarea": 47574,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 9,
+				"lotarea": 11442,
+				"lotdepth": 102.17,
+				"lotfront": 112,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 96,
+				"unitstotal": 96,
+				"lon": -73.95010845315862,
+				"lat": 40.770612618322794,
+				"id": 1014900009
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.950021,
+								40.770412
+							],
+							[
+								-73.949839,
+								40.770662
+							],
+							[
+								-73.949502,
+								40.77052
+							],
+							[
+								-73.949685,
+								40.77027
+							],
+							[
+								-73.950021,
+								40.770412
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "511 EAST 78 STREET",
+				"bbl": 1014900010,
+				"bldgarea": 44364,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 10,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 87,
+				"unitstotal": 87,
+				"lon": -73.94976192275732,
+				"lat": 40.770466152924485,
+				"id": 1014900010
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.949685,
+								40.77027
+							],
+							[
+								-73.949502,
+								40.77052
+							],
+							[
+								-73.949167,
+								40.770378
+							],
+							[
+								-73.949349,
+								40.770128
+							],
+							[
+								-73.949685,
+								40.77027
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "519 EAST 78 STREET",
+				"bbl": 1014900015,
+				"bldgarea": 44764,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 15,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 100,
+				"unitstotal": 100,
+				"lon": -73.94942588737766,
+				"lat": 40.77032412144633,
+				"id": 1014900015
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.949349,
+								40.770128
+							],
+							[
+								-73.949167,
+								40.770378
+							],
+							[
+								-73.948832,
+								40.770237
+							],
+							[
+								-73.949015,
+								40.769987
+							],
+							[
+								-73.949349,
+								40.770128
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "527 EAST 78 STREET",
+				"bbl": 1014900019,
+				"bldgarea": 44364,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 19,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 102,
+				"unitstotal": 102,
+				"lon": -73.94909079906756,
+				"lat": 40.770182488702964,
+				"id": 1014900019
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.949015,
+								40.769987
+							],
+							[
+								-73.948832,
+								40.770237
+							],
+							[
+								-73.948496,
+								40.770095
+							],
+							[
+								-73.948497,
+								40.770094
+							],
+							[
+								-73.9486,
+								40.769953
+							],
+							[
+								-73.948603,
+								40.769954
+							],
+							[
+								-73.948681,
+								40.769846
+							],
+							[
+								-73.949015,
+								40.769987
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "535 EAST 78 STREET",
+				"bbl": 1014900023,
+				"bldgarea": 44364,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 23,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 105.33,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 100,
+				"unitstotal": 100,
+				"lon": -73.9487559334176,
+				"lat": 40.77004125522613,
+				"id": 1014900023
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.948156,
+								40.76995
+							],
+							[
+								-73.948497,
+								40.770094
+							],
+							[
+								-73.948496,
+								40.770095
+							],
+							[
+								-73.948302,
+								40.77036
+							],
+							[
+								-73.947923,
+								40.7702
+							],
+							[
+								-73.948156,
+								40.76995
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "542 EAST 79 STREET",
+				"bbl": 1014900028,
+				"bldgarea": 54792,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 28,
+				"lotarea": 11929,
+				"lotdepth": 102.92,
+				"lotfront": 117.08,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 113,
+				"unitstotal": 113,
+				"lon": -73.94821752943386,
+				"lat": 40.77015335666952,
+				"id": 1014900028
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.948302,
+								40.77036
+							],
+							[
+								-73.948496,
+								40.770095
+							],
+							[
+								-73.948832,
+								40.770237
+							],
+							[
+								-73.948638,
+								40.770502
+							],
+							[
+								-73.948302,
+								40.77036
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "532 EAST 79 STREET",
+				"bbl": 1014900030,
+				"bldgarea": 44952,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 30,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 102,
+				"unitstotal": 102,
+				"lon": -73.94856716881742,
+				"lat": 40.770298550231864,
+				"id": 1014900030
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.948973,
+								40.770644
+							],
+							[
+								-73.948638,
+								40.770502
+							],
+							[
+								-73.948832,
+								40.770237
+							],
+							[
+								-73.949167,
+								40.770378
+							],
+							[
+								-73.948973,
+								40.770644
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "524 EAST 79 STREET",
+				"bbl": 1014900032,
+				"bldgarea": 44364,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 32,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 100,
+				"unitstotal": 100,
+				"lon": -73.94890241277943,
+				"lat": 40.770440250684004,
+				"id": 1014900032
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.947512,
+								40.770128
+							],
+							[
+								-73.948117,
+								40.769482
+							],
+							[
+								-73.94812,
+								40.769484
+							],
+							[
+								-73.947514,
+								40.770129
+							],
+							[
+								-73.947512,
+								40.770128
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "FDR DRIVE",
+				"bbl": 1014900060,
+				"bldgarea": 0,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 60,
+				"lotarea": 5716,
+				"lotdepth": 20,
+				"lotfront": 285.83,
+				"numbldgs": 0,
+				"numfloors": 0,
+				"unitsres": 0,
+				"unitstotal": 0,
+				"lon": -73.94783001656651,
+				"lat": 40.76979056881686,
+				"id": 1014900060
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.949167,
+								40.770378
+							],
+							[
+								-73.949502,
+								40.77052
+							],
+							[
+								-73.949308,
+								40.770786
+							],
+							[
+								-73.948973,
+								40.770644
+							],
+							[
+								-73.949167,
+								40.770378
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "516 EAST 79 STREET",
+				"bbl": 1014900036,
+				"bldgarea": 44364,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 36,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 99,
+				"unitstotal": 99,
+				"lon": -73.94923750264942,
+				"lat": 40.77058188374527,
+				"id": 1014900036
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.949645,
+								40.770928
+							],
+							[
+								-73.949308,
+								40.770786
+							],
+							[
+								-73.949502,
+								40.77052
+							],
+							[
+								-73.949839,
+								40.770662
+							],
+							[
+								-73.949645,
+								40.770928
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "510 EAST 79 STREET",
+				"bbl": 1014900040,
+				"bldgarea": 44364,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 40,
+				"lotarea": 10855,
+				"lotdepth": 102.17,
+				"lotfront": 106.25,
+				"numbldgs": 1,
+				"numfloors": 6,
+				"unitsres": 82,
+				"unitstotal": 82,
+				"lon": -73.9495735390331,
+				"lat": 40.77072391569513,
+				"id": 1014900040
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.949645,
+								40.770928
+							],
+							[
+								-73.949839,
+								40.770662
+							],
+							[
+								-73.950195,
+								40.770813
+							],
+							[
+								-73.950001,
+								40.771078
+							],
+							[
+								-73.949645,
+								40.770928
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "504 EAST 79 STREET",
+				"bbl": 1014900044,
+				"bldgarea": 48432,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 44,
+				"lotarea": 11442,
+				"lotdepth": 102.17,
+				"lotfront": 112,
+				"numbldgs": 2,
+				"numfloors": 6,
+				"unitsres": 92,
+				"unitstotal": 92,
+				"lon": -73.94992007011442,
+				"lat": 40.77087038200638,
+				"id": 1014900044
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								-73.948681,
+								40.769846
+							],
+							[
+								-73.948603,
+								40.769954
+							],
+							[
+								-73.9486,
+								40.769953
+							],
+							[
+								-73.948497,
+								40.770094
+							],
+							[
+								-73.948156,
+								40.76995
+							],
+							[
+								-73.948374,
+								40.769716
+							],
+							[
+								-73.948681,
+								40.769846
+							]
+						]
+					]
+				]
+			},
+			"properties": {
+				"address": "555 EAST 78 STREET",
+				"bbl": 1014900122,
+				"bldgarea": 75854,
+				"block": 1490,
+				"borocode": 1,
+				"cd": 108,
+				"lot": 122,
+				"lotarea": 10324,
+				"lotdepth": 106,
+				"lotfront": 102.5,
+				"numbldgs": 1,
+				"numfloors": 7,
+				"unitsres": 87,
+				"unitstotal": 87,
+				"lon": -73.94842510034813,
+				"lat": 40.769903314233666,
+				"id": 1014900122
+			}
+		}
+	]
+}
