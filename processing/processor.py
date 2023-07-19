@@ -6,10 +6,12 @@ import math
 #the more dense the housing, the greener the block is. 
 #this scales logarithmically up to 1000 units/acre
 def density_to_color(density):
-    if density < 1000:
+    if density < 1:
+        return 0
+    elif density < 999:
         return math.log(density,10)/3
     else:
-        return 0.9999999999
+        return 1
 
 super_dict = {}#super-dictionary
 
@@ -52,10 +54,11 @@ with open('1-data.json') as f:
     ax.set_aspect('equal', adjustable='box')
 
     #in a loop, render each block
-    for i in super_dict.values():    
+    for i in super_dict.values():
+        # print(i["density_acre"])    
         for j in i["coords_list"]:
             xs, ys = zip(*j)
-            if i["sum_units_res"] > 0:
+            if i["density_acre"] > 0.1:
                 plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
         
     plt.show()
