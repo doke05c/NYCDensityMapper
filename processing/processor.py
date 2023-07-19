@@ -8,7 +8,7 @@ import math
 def density_to_color(density):
     return math.log(density,10)/3
 
-with open('sample_bgn_beach.geojson') as f:
+with open('sample_village.geojson') as f:
     data = json.load(f)
 
     sum_area_sqft = 0
