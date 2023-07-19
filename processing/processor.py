@@ -8,7 +8,7 @@ import math
 def density_to_color(density):
     return math.log(density,10)/3
 
-with open('sample_midtown.geojson') as f:
+with open('sample_bgn_beach.geojson') as f:
     data = json.load(f)
 
     sum_area_sqft = 0
@@ -35,6 +35,8 @@ with open('sample_midtown.geojson') as f:
         json.dump(coords_list, save_file, indent=2)
 
     plt.figure()
+    ax = plt.gca()
+    ax.set_aspect('equal', adjustable='box')
     for i in coords_list:
         xs, ys = zip(*i)
 
