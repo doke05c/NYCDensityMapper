@@ -16,6 +16,8 @@ def density_to_color(density):
 mnh_super_dict = {}#manhattan-super-dictionary
 bx_super_dict = {}#bronx-super-dictionary
 bk_super_dict = {}#brooklyn-super-dictionary
+qns_super_dict = {}#queens-super-dictionary
+si_super_dict = {}#staten-island-super-dictionary
 
 #helps the super-dictionary organize the block data
 def dict_block_checker(dict, block):
@@ -116,6 +118,66 @@ with open('3-data.json') as f:
 
     #in a loop, render each block
     for i in bk_super_dict.values():
+        # print(i["density_acre"])    
+        for j in i["coords_list"]:
+            xs, ys = zip(*j)
+            if i["density_acre"] > 0.2:
+                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+
+with open('4-data.json') as f:
+    data = json.load(f)
+
+    for i in data['features']:
+
+        #check if block exists, make new dict entry if not
+        dict_block_checker(qns_super_dict, i['properties']['block'])
+
+        #add to block area
+        qns_super_dict[i['properties']['block']]["sum_area_sqft"] += i['properties']['lotarea']
+        
+        #add to block res unit count
+        qns_super_dict[i['properties']['block']]["sum_units_res"] += i['properties']['unitsres'] 
+
+        #add to coordinate list
+        qns_super_dict[i['properties']['block']]["coords_list"].append(i['geometry']['coordinates'][0][0])
+
+    #in a loop, calculate density by block in the super-dict
+    for i in qns_super_dict.values():
+        if i["sum_area_sqft"] > 0:
+            i["density_acre"] = i["sum_units_res"] / (i["sum_area_sqft"] / 43560)
+
+    #in a loop, render each block
+    for i in qns_super_dict.values():
+        # print(i["density_acre"])    
+        for j in i["coords_list"]:
+            xs, ys = zip(*j)
+            if i["density_acre"] > 0.2:
+                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+
+with open('5-data.json') as f:
+    data = json.load(f)
+
+    for i in data['features']:
+
+        #check if block exists, make new dict entry if not
+        dict_block_checker(si_super_dict, i['properties']['block'])
+
+        #add to block area
+        si_super_dict[i['properties']['block']]["sum_area_sqft"] += i['properties']['lotarea']
+        
+        #add to block res unit count
+        si_super_dict[i['properties']['block']]["sum_units_res"] += i['properties']['unitsres'] 
+
+        #add to coordinate list
+        si_super_dict[i['properties']['block']]["coords_list"].append(i['geometry']['coordinates'][0][0])
+
+    #in a loop, calculate density by block in the super-dict
+    for i in si_super_dict.values():
+        if i["sum_area_sqft"] > 0:
+            i["density_acre"] = i["sum_units_res"] / (i["sum_area_sqft"] / 43560)
+
+    #in a loop, render each block
+    for i in si_super_dict.values():
         # print(i["density_acre"])    
         for j in i["coords_list"]:
             xs, ys = zip(*j)
