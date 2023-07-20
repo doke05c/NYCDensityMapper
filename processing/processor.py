@@ -4,25 +4,41 @@ from matplotlib import pyplot as plt
 import math
 import gc
 
-#the more dense the housing, the greener the block is. 
-#this scales logarithmically up to 1000 units/acre
-def density_to_color(density):
-    if density == 0:
-        return hex(16711680)
-    elif (density > 0 and density <= 200):
-        return hex(int(16711680 + 326.4*(density-0)))[2:].zfill(6)
+#the more dense the housing, the brighter the wavelength color the block is. 
+#this scales linearly up to 1000+ units/acre
+def draw_red(density):
+    if (density >= 0 and density <= 200):
+        return 1
     elif (density > 200 and density <= 400):
-        return hex(int(16776960 - 83558.4*(density-200)))[2:].zfill(6)
-    elif (density > 400 and density <=500):
-        return hex(int(65280 - 323.84*(density-400)))[2:].zfill(6)
-    elif (density > 500 and density <=600):
-        return hex(int(32896 - 326.41*(density-500)))[2:].zfill(6)
-    elif (density > 600 and density <=800):
-        return hex(int(255 + 83558.4*(density-600)))[2:].zfill(6)
-    elif (density > 800 and density <=1000):
-        return hex(int(16711935 + 163.84*(density-800)))[2:].zfill(6)
+        return (2-(0.005)*density)
+    elif (density > 400 and density <= 600):
+        return 0
+    elif (density > 600 and density <= 800):
+        return ((0.005)*density-3)
+    elif (density > 800):
+        return 1
+
+def draw_green(density):
+    if (density >= 0 and density <= 200):
+        return (0.005*density)
+    elif (density > 200 and density <= 400):
+        return 1
+    elif (density > 400 and density <= 600):
+        return (3-(0.005)*density)
+    elif (density > 600 and density <= 800):
+        return 0
+    elif (density > 800 and density <= 1000):
+        return (0.0025)*density-2
     else:
-        return hex(16755455)
+        return 0.75
+
+def draw_blue(density):
+    if (density >= 0 and density <= 400):
+        return 0
+    elif (density > 400 and density <= 600):
+        return ((0.005)*density-2)
+    elif (density > 600):
+        return 1
 
 mnh_super_dict = {}#manhattan-super-dictionary
 bx_super_dict = {}#bronx-super-dictionary
@@ -73,7 +89,9 @@ with open('1-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
+                # if (draw_red(i["density_acre"]) < 0 or draw_red(i["density_acre"]) > 1 or draw_green(i["density_acre"]) < 0 or draw_green(i["density_acre"]) > 1 or draw_blue(i["density_acre"]) < 0 or draw_blue(i["density_acre"])) > 1:
+                #     print(i["density_acre"])
+                plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -110,7 +128,7 @@ with open('2-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
+                plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -147,7 +165,7 @@ with open('3-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
+                plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -184,7 +202,7 @@ with open('4-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
+                plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -221,7 +239,7 @@ with open('5-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
+                plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
             # else: 
                 # plt.fill(xs,ys, color=(0,0,0))
     del f
