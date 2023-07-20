@@ -7,38 +7,41 @@ import gc
 #the more dense the housing, the brighter the wavelength color the block is. 
 #this scales linearly up to 1000+ units/acre
 def draw_red(density):
-    if (density >= 0 and density <= 200):
+    if (density >= 0 and density <= 80):
         return 1
-    elif (density > 200 and density <= 400):
-        return (2-(0.005)*density)
-    elif (density > 400 and density <= 600):
+    elif (density > 80 and density <= 160):
+        return (2-(0.0125)*density)
+    elif (density > 160 and density <= 240):
         return 0
-    elif (density > 600 and density <= 800):
-        return ((0.005)*density-3)
-    elif (density > 800):
+    elif (density > 240 and density <= 320):
+        return ((0.0125)*density-3)
+    elif (density > 320):
         return 1
 
 def draw_green(density):
-    if (density >= 0 and density <= 200):
-        return (0.005*density)
-    elif (density > 200 and density <= 400):
+    if (density >= 0 and density <= 80):
+        return (0.0125*density)
+    elif (density > 80 and density <= 160):
         return 1
-    elif (density > 400 and density <= 600):
-        return (3-(0.005)*density)
-    elif (density > 600 and density <= 800):
+    elif (density > 160 and density <= 240):
+        return (3-(0.0125)*density)
+    elif (density > 240 and density <= 320):
         return 0
-    elif (density > 800 and density <= 1000):
-        return (0.0025)*density-2
+    elif (density > 320 and density <= 400):
+        return (0.00625)*density-2
     else:
         return 0.75
 
 def draw_blue(density):
-    if (density >= 0 and density <= 400):
+    if (density >= 0 and density <= 160):
         return 0
-    elif (density > 400 and density <= 600):
-        return ((0.005)*density-2)
-    elif (density > 600):
+    elif (density > 160 and density <= 240):
+        return ((0.0125)*density-2)
+    elif (density > 240):
         return 1
+
+# for i in range (0,501):
+#     print(draw_red(i), draw_green(i), draw_blue(i))
 
 mnh_super_dict = {}#manhattan-super-dictionary
 bx_super_dict = {}#bronx-super-dictionary
