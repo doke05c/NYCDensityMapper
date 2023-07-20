@@ -7,10 +7,22 @@ import gc
 #the more dense the housing, the greener the block is. 
 #this scales logarithmically up to 1000 units/acre
 def density_to_color(density):
-    if density < 999:
-        return math.log(density,10)/3
+    if density == 0:
+        return hex(16711680)
+    elif (density > 0 and density <= 200):
+        return hex(int(16711680 + 326.4*(density-0)))[2:].zfill(6)
+    elif (density > 200 and density <= 400):
+        return hex(int(16776960 - 83558.4*(density-200)))[2:].zfill(6)
+    elif (density > 400 and density <=500):
+        return hex(int(65280 - 323.84*(density-400)))[2:].zfill(6)
+    elif (density > 500 and density <=600):
+        return hex(int(32896 - 326.41*(density-500)))[2:].zfill(6)
+    elif (density > 600 and density <=800):
+        return hex(int(255 + 83558.4*(density-600)))[2:].zfill(6)
+    elif (density > 800 and density <=1000):
+        return hex(int(16711935 + 163.84*(density-800)))[2:].zfill(6)
     else:
-        return 1
+        return hex(16755455)
 
 mnh_super_dict = {}#manhattan-super-dictionary
 bx_super_dict = {}#bronx-super-dictionary
@@ -61,7 +73,7 @@ with open('1-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -98,7 +110,7 @@ with open('2-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -135,7 +147,7 @@ with open('3-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -172,7 +184,7 @@ with open('4-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
             # else: 
             #     plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -209,7 +221,7 @@ with open('5-data.json') as f:
         for j in i["coords_list"]:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
-                plt.fill(xs,ys, color=(1-(density_to_color(i["density_acre"])), density_to_color(i["density_acre"]), 0))
+                plt.fill(xs,ys, color=("#" + density_to_color(i["density_acre"])))
             # else: 
                 # plt.fill(xs,ys, color=(0,0,0))
     del f
@@ -220,7 +232,7 @@ gc.collect
 
 plt.show()
 
-plt.savefig("../densitymap.png", dpi='figure', format=None, metadata=None,
-        bbox_inches=None, pad_inches=0.1,
-        facecolor='auto', edgecolor='auto',
-        backend=None)
+# plt.savefig("../densitymap.png", dpi='figure', format=None, metadata=None,
+#         bbox_inches=None, pad_inches=0.1,
+#         facecolor='auto', edgecolor='auto',
+#         backend=None)
