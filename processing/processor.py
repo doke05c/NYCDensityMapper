@@ -61,7 +61,7 @@ def dict_block_checker(dict, block):
 
 
 
-with open('1-data.json') as f:
+with open('../data/1-data.json') as f:
     data = json.load(f)
 
     for i in data['features']:
@@ -103,7 +103,7 @@ with open('1-data.json') as f:
 del mnh_super_dict
 gc.collect
 
-with open('2-data.json') as f:
+with open('../data/2-data.json') as f:
     data = json.load(f)
 
     for i in data['features']:
@@ -140,7 +140,7 @@ with open('2-data.json') as f:
 del bx_super_dict
 gc.collect
 
-with open('3-data.json') as f:
+with open('../data/3-data.json') as f:
     data = json.load(f)
 
     for i in data['features']:
@@ -177,7 +177,7 @@ with open('3-data.json') as f:
 del bk_super_dict
 gc.collect
 
-with open('4-data.json') as f:
+with open('../data/4-data.json') as f:
     data = json.load(f)
 
     for i in data['features']:
@@ -214,7 +214,7 @@ with open('4-data.json') as f:
 del qns_super_dict
 gc.collect
 
-with open('5-data.json') as f:
+with open('../data/5-data.json') as f:
     data = json.load(f)
 
     for i in data['features']:

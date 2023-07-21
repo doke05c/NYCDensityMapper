@@ -57,7 +57,7 @@ def dict_block_checker(dict, block):
 
 
 
-with open('3-data.json') as f:
+with open('../data/3-data.json') as f:
     data = json.load(f)
 
     for i in data['features']:
