@@ -95,8 +95,8 @@ with open('1-data.json') as f:
                 # if (draw_red(i["density_acre"]) < 0 or draw_red(i["density_acre"]) > 1 or draw_green(i["density_acre"]) < 0 or draw_green(i["density_acre"]) > 1 or draw_blue(i["density_acre"]) < 0 or draw_blue(i["density_acre"])) > 1:
                 #     print(i["density_acre"])
                 plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
-            # else: 
-            #     plt.fill(xs,ys, color=(0,0,0))
+            else: 
+                plt.fill(xs,ys, color=(0,0,0))
     del f
     gc.collect
 
@@ -132,8 +132,8 @@ with open('2-data.json') as f:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
                 plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
-            # else: 
-            #     plt.fill(xs,ys, color=(0,0,0))
+            else: 
+                plt.fill(xs,ys, color=(0,0,0))
     del f
     gc.collect
 
@@ -169,8 +169,8 @@ with open('3-data.json') as f:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
                 plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
-            # else: 
-            #     plt.fill(xs,ys, color=(0,0,0))
+            else: 
+                plt.fill(xs,ys, color=(0,0,0))
     del f
     gc.collect
 
@@ -206,8 +206,8 @@ with open('4-data.json') as f:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
                 plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
-            # else: 
-            #     plt.fill(xs,ys, color=(0,0,0))
+            else: 
+                plt.fill(xs,ys, color=(0,0,0))
     del f
     gc.collect
 
@@ -243,8 +243,8 @@ with open('5-data.json') as f:
             xs, ys = zip(*j)
             if i["density_acre"] > 1:
                 plt.fill(xs,ys, color=(draw_red(i["density_acre"]), draw_green(i["density_acre"]), draw_blue(i["density_acre"])))
-            # else: 
-                # plt.fill(xs,ys, color=(0,0,0))
+            else: 
+                plt.fill(xs,ys, color=(0,0,0))
     del f
     gc.collect
 
