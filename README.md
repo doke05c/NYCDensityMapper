@@ -20,6 +20,20 @@ The end result is a series of high-detail images depicting the boroughs of NYC a
 
 Areas in black are parks, schools, business districts, and other areas of activity that do not constitute housing. Areas in white are usually highways, or other such infrastructure that could not be counted as a block.
 
+### Links to Sections of the Project
+
+<a href="https://github.com/doke05c/NYCDensityMapper/tree/main/guides
+">Data Collection Recreation Guide</a>
+
+<a href="https://github.com/doke05c/NYCDensityMapper/tree/main/data
+">Dataset After Some Cleaning</a>
+
+<a href="https://github.com/doke05c/NYCDensityMapper/tree/main/processing
+">Code to Process Data</a>
+
+<a href="https://github.com/doke05c/NYCDensityMapper/tree/main/maps
+">Density Maps and Key</a>
+
 ## Purpose: Combatting Climate Change and Restoring our Cities
 
 In the last half century, it has become abundantly clear that the way of life of much of the United States and other devloped nations around the world has become unsustainable for the future of the planet. Excessive consumption of fossil fuels have driven much of what we know now as the greenhouse effect, where trapped excess carbon dioxide traps heat within the planet's atmosphere, increasing global temperatures and causing extreme weather events to become more likely, such as heat waves, droughts, storms, earthquakes, and more.
