@@ -8,6 +8,8 @@ Using NYC government APIs, SQL, Python, and a little bit of zoning, I develop a 
 
 The end result is a series of high-detail images depicting the boroughs of NYC and the densities of all of their blocks, with a handy guide displaying the housing density per acre with the appropriate colors.
 
+
+
 Areas in black are parks, schools, business districts, and other areas of activity that do not constitute housing. Areas in white are usually highways, or other such infrastructure that could not be counted as a block.
 
 ## Purpose: Combatting Climate Change and Restoring our Cities
@@ -20,9 +22,12 @@ But what if that wasn't enough? What if our built environment, not just our life
 
 As such, density is one of humanity's true remaining silver bullets to reduce our carbon footprint. Denser environments hold the key to future sustainability, and knowing which locations are the densest in the 8.5 million-strong city of New York will help us where to most effectively allocate our resources. Many top urban planners and architects understand that a minimum level of density is a prerequisite to not just sustainable, environmentally friendly living, but also successful urban, transit-oriented development. Hopefully, this data will prove useful in the future of our city, and the future of cities around the world where such data is equally available and can make an equally profound impact on building a sustainable urban future.
 
+<br>
 
-Created by: David Oke (<a href="https://github.com/doke05c/">Github</a>, <a href="https://www.linkedin.com/in/david-oke-73a093107/">LinkedIn</a>) <br>
-Major Contributons in Data Discovery and Processing by: David Chen (<a href="https://github.com/TheEgghead27">Github</a>, <a href="https://www.linkedin.com/in/david-lin-chen/">LinkedIn</a>)
+### Created by: David Oke (<a href="https://github.com/doke05c/">Github</a>, <a href="https://www.linkedin.com/in/david-oke-73a093107/">LinkedIn</a>) <br>
+### Major Contributons in Data Discovery and Processing by: David Chen (<a href="https://github.com/TheEgghead27">Github</a>, <a href="https://www.linkedin.com/in/david-lin-chen/">LinkedIn</a>)
 
-Images also available on <a href="https://imgur.com/a/TwQhqe7">Imgur</a>
+### Public Data Available on <a href="https://zola.planning.nyc.gov">ZoLa: NYC's Zoning and Land Use Map</a>
+
+### Density Maps Available to View on <a href="https://imgur.com/a/TwQhqe7">Imgur</a>
 
