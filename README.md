@@ -8,7 +8,15 @@ Using NYC government APIs, SQL, Python, and a little bit of zoning, I develop a 
 
 The end result is a series of high-detail images depicting the boroughs of NYC and the densities of all of their blocks, with a handy guide displaying the housing density per acre with the appropriate colors.
 
+![Bronx Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/bronxmap_save.png)
 
+![Manhattan Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/manhattanmap_save_rotated.png)
+
+![Brooklyn Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/brooklynmap_save.png)
+
+![Queens Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/queensmap_save.png)
+
+![Staten Island Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/staten_island_map_save.png)
 
 Areas in black are parks, schools, business districts, and other areas of activity that do not constitute housing. Areas in white are usually highways, or other such infrastructure that could not be counted as a block.
 
