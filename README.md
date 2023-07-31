@@ -23,3 +23,6 @@ As such, density is one of humanity's true remaining silver bullets to reduce ou
 
 Created by: David Oke (<a href="https://github.com/doke05c/">Github</a>, <a href="https://www.linkedin.com/in/david-oke-73a093107/">LinkedIn</a>) <br>
 Major Contributons in Data Discovery and Processing by: David Chen (<a href="https://github.com/TheEgghead27">Github</a>, <a href="https://www.linkedin.com/in/david-lin-chen/">LinkedIn</a>)
+
+Images also available on <a href="https://imgur.com/a/TwQhqe7">Imgur</a>
+
