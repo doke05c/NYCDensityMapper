@@ -35,5 +35,5 @@ As such, density is one of humanity's true remaining silver bullets to reduce ou
 
 ### Public Data Available on <a href="https://zola.planning.nyc.gov">ZoLa: NYC's Zoning and Land Use Map</a>
 
-### Density Maps Available to View on <a href="https://imgur.com/a/TwQhqe7">Imgur</a>
+### Density Maps Also Available to View on <a href="https://imgur.com/a/TwQhqe7">Imgur</a>
 
