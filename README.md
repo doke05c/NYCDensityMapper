@@ -22,7 +22,7 @@ Areas in black are parks, schools, business districts, and other areas of activi
 
 ### Links to Sections of the Project
 
-<a href="https://github.com/doke05c/NYCDensityMapper/tree/main/guides
+<a href="https://github.com/doke05c/NYCDensityMapper/blob/main/guides/data_collection/data_collection_instructions.md
 ">Data Collection Recreation Guide</a>
 
 <a href="https://github.com/doke05c/NYCDensityMapper/tree/main/data
