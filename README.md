@@ -16,7 +16,7 @@ The end result is a series of high-detail images depicting the boroughs of NYC a
 
 ![Queens Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/queensmap_save_lot.jpg)
 
-![Staten Island Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/si_map_save_lot.jpg)
+![Staten Island Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/simap_save_lot.jpg)
 
 Areas in black are parks, schools, business districts, and other areas of activity that do not constitute housing. Areas in white are usually highways, or other such infrastructure that could not be counted as a block.
 
