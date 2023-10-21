@@ -8,15 +8,15 @@ Using NYC government APIs, SQL, Python, and a little bit of zoning, I develop a 
 
 The end result is a series of high-detail images depicting the boroughs of NYC and the densities of all of their blocks, with a handy guide displaying the housing density per acre with the appropriate colors.
 
-![Bronx Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/bronxmap_save_lot.png)
+![Bronx Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/bronxmap_save_lot.jpg)
 
-![Manhattan Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/manhattanmap_save_lot.png)
+![Manhattan Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/manhattanmap_save_lot.jpg)
 
-![Brooklyn Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/brooklynmap_save_lot.png)
+![Brooklyn Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/brooklynmap_save_lot.jpg)
 
-![Queens Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/queensmap_save_lot.png)
+![Queens Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/queensmap_save_lot.jpg)
 
-![Staten Island Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/si_map_save_lot.png)
+![Staten Island Map](https://github.com/doke05c/NYCDensityMapper/blob/main/maps/simap_save_lot.jpg)
 
 Areas in black are parks, schools, business districts, and other areas of activity that do not constitute housing. Areas in white are usually highways, or other such infrastructure that could not be counted as a block.
 
@@ -49,5 +49,5 @@ As such, density is one of humanity's true remaining silver bullets to reduce ou
 
 ### Public Data Available on <a href="https://zola.planning.nyc.gov">ZoLa: NYC's Zoning and Land Use Map</a>
 
-### Density Maps Also Available to View on <a href="https://imgur.com/a/TwQhqe7">Imgur</a>
+### Density Maps Also Available to View on <a href="https://imgur.com/a/10uG7YF">Imgur</a>
 
